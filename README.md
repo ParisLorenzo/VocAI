@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# 🌐 VocAi – Orientador Vocacional con IA para STEM  
 
-## Project info
+👉 **Accede a la aplicación aquí:** [https://voc-ai.netlify.app/](https://voc-ai.netlify.app/)  
 
-**URL**: https://lovable.dev/projects/3a6500d6-9f1a-4afd-908a-b0a7d6609c7a
+---
 
-## How can I edit this code?
+## 📖 Descripción  
+**VocAi** es una aplicación web inclusiva desarrollada por **WarmiTech** que ayuda a estudiantes —especialmente niñas y mujeres— a descubrir y elegir carreras en **STEM (Ciencia, Tecnología, Ingeniería y Matemáticas)** mediante inteligencia artificial, comunidad y mentoría.  
 
-There are several ways of editing your application.
+El proyecto busca reducir la brecha de género en tecnología y ciencia, ofreciendo un espacio **seguro, futurista y motivador**.  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3a6500d6-9f1a-4afd-908a-b0a7d6609c7a) and start prompting.
+## ✨ Características principales  
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🚀 Ruta STEM  
+- Rutas de aprendizaje personalizadas.  
+- Recursos y retos prácticos.  
+- Progreso y logros con gamificación.  
 
-**Use your preferred IDE**
+### 🤝 STEM Connect (Foro + Comunidad)  
+- Foro seguro para compartir y aprender.  
+- Vista pública para invitados.  
+- Crear publicaciones y comentar → requiere registro.  
+- Futura integración con **Discord** para mentorías y networking.  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🤖 Asistente VocAi (Chatbot Vocacional)  
+- Chatbot que guía en la exploración vocacional.  
+- Invitados pueden probar la demo.  
+- Usuarios registrados pueden hacer preguntas personalizadas.  
+- Futuro upgrade con **DeepSeek AI**.  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🔐 Flujo de usuarios  
+- **Invitados:** pueden navegar libremente, ver rutas, leer foros y probar el chatbot en demo.  
+- **Usuarios registrados:** pueden comentar, publicar, guardar progreso y usar funciones avanzadas.  
+- **Continuidad de sesión:** tras iniciar sesión, vuelven al punto exacto donde estaban.  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🎨 Diseño  
+- Estilo **futurista + minimalista**.  
+- Paleta: **negro + rosa neón + morado neón**.  
+- 100% **responsive** (móvil y escritorio).  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## ⚙️ Tecnologías utilizadas  
+- **Frontend:** React + Tailwind CSS  
+- **Backend (placeholder):** Node.js / FastAPI  
+- **Base de datos (futuro):** PostgreSQL  
+- **Autenticación:** JWT (básico)  
+- **Hosting:** Netlify  
+
+---
+
+## 🚀 Instalación local  
+
+```bash
+# Clonar repositorio
+git clone https://github.com/tu-usuario/vocai.git
+
+# Entrar al proyecto
+cd vocai
+
+# Instalar dependencias
+npm install
+
+# Iniciar entorno local
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3a6500d6-9f1a-4afd-908a-b0a7d6609c7a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
