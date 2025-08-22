@@ -1,0 +1,53 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ECDC4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#45B7D1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ECDC4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#45B7D1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="50" fill="url(#brainGradient)" opacity="0.1"/>
+  <circle cx="1100" cy="530" r="80" fill="url(#brainGradient)" opacity="0.1"/>
+  <circle cx="200" cy="500" r="30" fill="url(#brainGradient)" opacity="0.2"/>
+  
+  <!-- Main brain icon -->
+  <g transform="translate(150, 165)">
+    <circle cx="150" cy="150" r="120" fill="url(#brainGradient)" stroke="#ffffff" stroke-width="4"/>
+    <path d="M150 60C180 60 205 75 210 100C215 125 200 140 180 145C190 150 200 160 200 175C200 195 180 210 160 210C140 210 120 195 120 175C120 160 130 150 140 145C120 140 105 125 110 100C115 75 140 60 170 60H150Z" fill="white"/>
+    <path d="M130 100C135 100 140 105 140 110C140 115 135 120 130 120C125 120 120 115 120 110C120 105 125 100 130 100Z" fill="#1a1a2e"/>
+    <path d="M170 100C175 100 180 105 180 110C180 115 175 120 170 120C165 120 160 115 160 110C160 105 165 100 170 100Z" fill="#1a1a2e"/>
+    <path d="M150 130C155 130 160 135 160 140C160 145 155 150 150 150C145 150 140 145 140 140C140 135 145 130 150 130Z" fill="#1a1a2e"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="600" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white">
+    VocAi
+  </text>
+  <text x="600" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="normal" fill="url(#textGradient)">
+    Tu futuro en STEM
+  </text>
+  <text x="600" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="normal" fill="#cccccc">
+    Plataforma inclusiva para orientación vocacional
+  </text>
+  <text x="600" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="normal" fill="#cccccc">
+    en ciencia, tecnología, ingeniería y matemáticas
+  </text>
+  
+  <!-- Bottom accent -->
+  <rect x="0" y="580" width="1200" height="50" fill="url(#brainGradient)" opacity="0.3"/>
+</svg>
